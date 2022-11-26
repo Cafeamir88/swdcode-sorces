@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: VAZIR;
+    src: url(fonts/Vazirmatn-Black.woff2);
+}
+
+html{
+    background-color: #1f2833;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    font-family: VAZIR;
+    background-color: #1f2833;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+img{
+    width: 100%;
+}
+
+/* NAV-MENU ------------------------------------------------------------*/
+
+.nav-menu{
+    background-color: #1f2833;
+    height: 50px;
+}
+
+.nav-menu ul li{
+    display: inline-block;
+    margin-left: 7px;
+}
+
+.nav-menu ul li a{
+    display: inline-block;
+    color: #45a29b;
+    padding: 15px 0;
+    position: relative;
+    transition: all .3s ease;
+}
+
+.nav-menu ul li a:hover{
+    color: #66fcf1;
+    transition: all .3s ease;
+}
+
+.nav-menu ul li> ul{
+    position: absolute;
+    background-color: #1f2833;
+    width: 150px;
+    border-radius: 0 0 10px 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 20;
+}
+
+.nav-menu ul li:hover> ul{
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3s ease;
+    padding: 10px;
+}
+
+.nav-menu ul li ul li{
+    display: block;
+}
+
+.nav-menu ul li ul li a{
+    padding: 8px 15px;
+}
+
+/* WEB-HEAD --------------------------------------------------------------*/
+
+.webhead{
+    background-color: #0b0c10;
+    text-align: center;
+    height: 200px;
+}
+
+.webhead h1{
+    font-size: 3em;
+    color: #66fcf1;
+    margin-top: 30px;
+}
+
+.webhead p{
+    color: #c5c6c7;
+    font-size: 1.8rem;
+    margin: 20px 0 25px 0;
+}
+
+.webhead a{
+    padding: 8px 15px;
+    border: 2px dashed #45a29b;
+    border-radius: 20px;
+    color: #66fcf1;
+    transition: all 0.3s ease;
+}
+
+.webhead a:hover{
+    background-color: #45a29b;
+    color: #c5c6c7;
+    transition: all 0.3s ease;
+}
+
+/* WEB-NEMONEHA --------------------------------------------------------------------*/
+
+.information{
+    background-color: #1f2833;
+}
+
+.information img{
+    width: 95%;
+    height: 95%;
+    margin: 20px 10px 20px 0;
+    padding: 15px;
+    border: 2px dotted #45a29b;
+    border-radius: 15px;
+}
+
+.information h2{
+    color: #66fcf1;
+    font-size: 3.5rem;
+}
+
+.information p{
+    font-size: 1.2em;
+    line-height: 2;
+    color: #c5c6c7;
+    text-align: justify;
+}
+
+.information .underb{
+    border-bottom: 1px solid #45a29a59;
+}
+
+#imgl{
+    margin: 20px 0 20px 10px;
+}
+
+#imgl2{
+    margin: 20px 0 20px 10px;
+}
+
+/* WEB-FOOTER ------------------------------------------------------------------*/
+
+.footer{
+    background-color: #0b0c10;
+    height: 120px;
+    margin-top: auto;
+}
+
+.footer ul{
+    padding: 13px 0;
+}
+
+.footer ul li{
+    margin-top: 5px;
+    margin-right: 40px;
+}
+
+.footer ul li a{
+    font-size: 1.6rem;
+    color: #66fcf1;
+    transition: all .2s ease;
+}
+
+.footer ul li a:hover{
+    color: #45a29b;
+    transition: all .2s ease;
+}
+
+.footer p{
+    color: #c5c6c7;
+    line-height: 2;
+    padding: 13px 0;
+    text-align: justify;
+    font-size: 1.45rem;
+}
+
+/* WEB-COPY-RIGHT ----------------------------------------------------------*/
+
+.copyr{
+    background-color: #45a29b;
+}
+
+.copyr p{
+    color: #0b0c10;
+}
+
+/* #0b0c10
+#1f2833
+#c5c6c7
+#66fcf1
+#45a29b */

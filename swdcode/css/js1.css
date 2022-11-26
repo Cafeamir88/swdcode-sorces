@@ -1,0 +1,76 @@
+li{
+    list-style: decimal;
+}
+
+.mesal1{
+    background-color: #0b0c10;
+    height: 250px;
+}
+
+.mesal1 p{
+    color: #c5c6c7;
+}
+
+.mesal1 h1{
+    color: #66fcf1;
+    font-size: 5rem;
+    text-align: center;
+}
+
+#esm{
+    height: 25px;
+    width: 250px;
+    background-color: #c5c6c7;
+    border-radius: 5px;
+}
+
+#btn{
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.mesal1 p{
+    color: #c8ff00;
+    padding: 20px 0;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.mesal1 h2{
+    text-align: center;
+    color: #45a29b;
+    padding: 10px 0 25px 0;
+}
+
+.sorcecode{
+    background-color: #1f2833;
+}
+
+.sorcecode h3{
+    font-size: 3rem;
+    color: #66fcf1;
+    padding: 10px 0 15px 0;
+    border-bottom: 1px solid #5d5e63;
+}
+
+.sorcecode ol li{
+    color: #c5c6c7;
+    font-size: 1.7rem;
+    padding: 10px 0 10px 0;
+}
+
+.sorcecode ol img{
+    border: 2px dashed #66fcf1;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.footer ul li{
+    list-style: none;
+}
+
+/* #0b0c10
+#1f2833
+#c5c6c7
+#66fcf1
+#45a29b */
